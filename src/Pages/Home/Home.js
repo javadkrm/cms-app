@@ -1,8 +1,10 @@
 import React from 'react'
+import './Home.css'
+
 import Features from '../../Components/features/Features'
 import Chart from '../../Components/lineChart/LineChart'
-import './Home.css'
-import datas from '../../Datas';
+import {datas} from '../../Datas';
+import WidgetSm from '../../Components/widgetSm/WidgetSm';
 
 
 export default function Home() {
@@ -10,6 +12,9 @@ export default function Home() {
     <div className='home'>
       <Features/>
       <Chart title='Monthly Sale' data={datas} dataKey='sale' grid/>
+      <div className='homeWidgets'>
+          <WidgetSm/>
+      </div>
     </div>
   )
 }

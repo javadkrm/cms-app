@@ -35,4 +35,11 @@ const datas = [
    
 ];
 
-export default datas
+
+let newMembers = [
+    {id: 1, userName: 'ALiot Alderson', userTitle: 'Hacker', img: 'adminImages/admin.png'},
+    {id: 2, userName: 'Darlin Alderson', userTitle: 'Hacker', img: 'adminImages/admin3.png'},
+    {id: 3, userName: 'Angela Moss', userTitle: 'Saftey Manager', img: 'adminImages/admin4.png'},
+]
+
+export {datas, newMembers}

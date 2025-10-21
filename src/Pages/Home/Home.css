@@ -2,3 +2,8 @@
     flex: 4;
     margin: 20px;
 }
+
+.homeWidgets {
+    display: flex;
+    margin: 25px 0;
+}
