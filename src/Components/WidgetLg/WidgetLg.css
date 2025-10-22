@@ -1,0 +1,84 @@
+.widgetLgContainer {
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0,0,0,1);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.widgetLgTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetLgTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widgetLgTr {
+
+}
+
+.widgetLgTh {
+    text-align: center;
+}
+
+.widgetLgTr {
+
+}
+
+.widgetLgUser {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.widgetLgUserImg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.widgetLgDate, .widgetLgAmount {
+    font-weight: 300;
+    text-align: center;
+}
+
+.widgetLgStatus {
+    text-align: center;
+}
+
+.widgetLgButton {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.widgetLgButton.Approved {
+    color: #3bb077;
+    background-color: #e5faf2;
+}
+
+.widgetLgButton.Declined {
+    color: #d95087;
+    background-color: #fff0f1;
+}
+
+.widgetLgButton.Pending {
+    color: #2a7aee;
+    background-color: #ebf1fe;
+}

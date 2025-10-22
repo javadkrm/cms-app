@@ -1,4 +1,4 @@
-const datas = [
+let datas = [
     {
         "month": 'January',
         "sale": 2435,
@@ -42,4 +42,10 @@ let newMembers = [
     {id: 3, userName: 'Angela Moss', userTitle: 'Saftey Manager', img: 'adminImages/admin4.png'},
 ]
 
-export {datas, newMembers}
+let transActions = [
+    {id: 1, name: 'Aliot Alderson', date: '03/09/07', amount: 2_000, status: 'Approved', img: 'adminImages/admin2.png'},
+    {id: 1, name: 'Darlin Alderson', date: '03/09/07', amount: 1_000, status: 'Declined', img: 'adminImages/admin3.png'},
+    {id: 1, name: 'Angela moss', date: '03/04/02', amount: 3_400, status: 'Pending', img: 'adminImages/admin4.png'},
+]
+
+export {datas, newMembers, transActions}

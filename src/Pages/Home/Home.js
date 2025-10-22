@@ -5,6 +5,7 @@ import Features from '../../Components/features/Features'
 import Chart from '../../Components/lineChart/LineChart'
 import {datas} from '../../Datas';
 import WidgetSm from '../../Components/widgetSm/WidgetSm';
+import WidgetLg from '../../Components/WidgetLg/WidgetLg';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Chart title='Monthly Sale' data={datas} dataKey='sale' grid/>
       <div className='homeWidgets'>
           <WidgetSm/>
+          <WidgetLg/>
       </div>
     </div>
   )
