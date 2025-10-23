@@ -28,7 +28,7 @@ export default function WidgetLg() {
               <span className='widgetLgUserData'>{ta.date}</span>
             </td>
             <td className="widgetLgAmount">
-              <span className='widgetLgUserData'>{ta.amount}</span>
+              <span className='widgetLgUserData'>{ta.amount}$</span>
             </td>
             <td className="widgetLgStatus">
               <Button type={ta.status} />

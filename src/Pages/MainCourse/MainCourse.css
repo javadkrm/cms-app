@@ -1,0 +1,53 @@
+.mainCourse {
+  flex: 4;
+  padding: 20px;
+}
+
+.mainCourseContainer {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.mainCourseHeader {
+  margin-bottom: 20px;
+}
+
+.mainCourseInfo {
+  display: flex;
+  gap: 30px;
+}
+
+.mainCourseLeft {
+  flex: 1;
+}
+
+.mainCourseImg {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.mainCourseRight {
+  flex: 2;
+  padding: 20px 0;
+}
+
+.mainCourseInfoItem {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.mainCourseInfoKey {
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+  width: 120px;
+}
+
+.mainCourseInfoValue {
+  color: #333;
+}
