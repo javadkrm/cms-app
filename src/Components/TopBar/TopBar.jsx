@@ -23,7 +23,7 @@ export default function TopBar() {
           <div className='topbarIconsContainer'>
             <SettingsIcon/>
           </div>
-          <img className='adminImage' src='adminImages/admin2.png'/>
+          <img className='adminImage' src='../public/adminImages/admin2.png'/>
         </div>
       </div>
     </div>

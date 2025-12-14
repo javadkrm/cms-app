@@ -1,3 +1,5 @@
+let PUBLIC_URL = process.env.PUBLIC_URL || '';
+
 let datas = [
     {
         "month": 'January',
@@ -37,29 +39,29 @@ let datas = [
 
 
 let newMembers = [
-    { id: 1, userName: 'ALiot Alderson', userTitle: 'Hacker', img: 'adminImages/admin.png' },
-    { id: 2, userName: 'Darlin Alderson', userTitle: 'Hacker', img: 'adminImages/admin3.png' },
-    { id: 3, userName: 'Angela Moss', userTitle: 'Saftey Manager', img: 'adminImages/admin4.png' },
+    { id: 1, userName: 'ALiot Alderson', userTitle: 'Hacker', img: `${PUBLIC_URL}/adminImages/admin.png` },
+    { id: 2, userName: 'Darlin Alderson', userTitle: 'Hacker', img: `${PUBLIC_URL}/adminImages/admin3.png` },
+    { id: 3, userName: 'Angela Moss', userTitle: 'Saftey Manager', img: `${PUBLIC_URL}/adminImages/admin4.png` },
 ]
 
 let transActions = [
-    { id: 1, name: 'Aliot Alderson', date: '03/09/07', amount: 2_000, status: 'Approved', img: 'adminImages/admin2.png' },
-    { id: 1, name: 'Darlin Alderson', date: '03/09/07', amount: 1_000, status: 'Declined', img: 'adminImages/admin3.png' },
-    { id: 1, name: 'Angela moss', date: '03/04/02', amount: 3_400, status: 'Pending', img: 'adminImages/admin4.png' },
+    { id: 1, name: 'Aliot Alderson', date: '03/09/07', amount: 2_000, status: 'Approved', img: `${PUBLIC_URL}/adminImages/admin2.png` },
+    { id: 1, name: 'Darlin Alderson', date: '03/09/07', amount: 1_000, status: 'Declined', img: `${PUBLIC_URL}/adminImages/admin3.png` },
+    { id: 1, name: 'Angela moss', date: '03/04/02', amount: 3_400, status: 'Pending', img: `${PUBLIC_URL}/adminImages/admin4.png` },
 ]
 
 let userRows = [
-    { id: 1, userName: 'Aliot Alderson', avatar: 'adminImages/admin2.png', email: 'alderson@gmail.com', status: 'active', transaction: '$134.00' },
-    { id: 2, userName: 'Dari Alderson', avatar: 'adminImages/admin3.png', email: 'darlinalderson@gmail.com', status: 'active', transaction: '$109.00' },
-    { id: 3, userName: 'Angela Moss', avatar: 'adminImages/admin4.png', email: 'moss@gmail.com', status: 'active', transaction: '$110.00' },
-    { id: 4, userName: 'Tyrell Wellick', avatar: 'adminImages/tyler.png', email: 'tyler@gmail.com', status: 'active', transaction: '$980.00' },
-    { id: 5, userName: 'Edi Alderson', avatar: 'adminImages/EdwardAlderson.png', email: 'edward@gmail.com', status: 'active', transaction: '$23.000' },
+    { id: 1, userName: 'Aliot Alderson', avatar: `${PUBLIC_URL}/adminImages/admin2.png`, email: 'alderson@gmail.com', status: 'active', transaction: '$134.00' },
+    { id: 2, userName: 'Dari Alderson', avatar: `${PUBLIC_URL}/adminImages/admin3.png`, email: 'darlinalderson@gmail.com', status: 'active', transaction: '$109.00' },
+    { id: 3, userName: 'Angela Moss', avatar: `${PUBLIC_URL}/adminImages/admin4.png`, email: 'moss@gmail.com', status: 'active', transaction: '$110.00' },
+    { id: 4, userName: 'Tyrell Wellick', avatar: `${PUBLIC_URL}/adminImages/tyler.png`, email: 'tyler@gmail.com', status: 'active', transaction: '$980.00' },
+    { id: 5, userName: 'Edi Alderson', avatar: `${PUBLIC_URL}/adminImages/EdwardAlderson.png`, email: 'edward@gmail.com', status: 'active', transaction: '$23.000' },
 
 ]
 
 let productsRows = [
     {
-        id: 1, name: 'LapTop', avatar: 'productImages/laptop.png', price: '1200 $', status: 'Available', salesData: [
+        id: 1, name: 'LapTop', avatar: `${PUBLIC_URL}/productImages/laptop.png`, price: '1200 $', status: 'Available', salesData: [
             { month: 'January', sales: 2300 },
             { month: 'February', sales: 3200 },
             { month: 'March', sales: 4300 },
@@ -68,7 +70,7 @@ let productsRows = [
         ]
     },
     {
-        id: 2, name: 'Phone', avatar: 'productImages/phone.png', price: '900 $', status: 'Available', salesData: [
+        id: 2, name: 'Phone', avatar: `${PUBLIC_URL}/productImages/phone.png`, price: '900 $', status: 'Available', salesData: [
             { month: 'January', sales: 4400 },
             { month: 'February', sales: 3500 },
             { month: 'March', sales: 5007 },
@@ -77,7 +79,7 @@ let productsRows = [
         ]
     },
     {
-        id: 3, name: 'HeadPhone', avatar: 'productImages/headphone.png', price: '320 $', status: 'Available', salesData: [
+        id: 3, name: 'HeadPhone', avatar: `${PUBLIC_URL}/productImages/headphone.png`, price: '320 $', status: 'Available', salesData: [
             { month: 'January', sales: 2300 },
             { month: 'February', sales: 1200 },
             { month: 'March', sales: 7600 },
@@ -86,7 +88,7 @@ let productsRows = [
         ]
     },
     {
-        id: 4, name: 'Hard Drive', avatar: 'productImages/hard.png', price: '500 $', status: 'Available', salesData: [
+        id: 4, name: 'Hard Drive', avatar: `${PUBLIC_URL}/productImages/hard.png`, price: '500 $', status: 'Available', salesData: [
             { month: 'January', sales: 4340 },
             { month: 'February', sales: 3400 },
             { month: 'March', sales: 5023 },
@@ -95,7 +97,7 @@ let productsRows = [
         ]
     },
     {
-        id: 5, name: 'USB', avatar: 'productImages/usb.png', price: '120 $', status: 'Available', salesData: [
+        id: 5, name: 'USB', avatar: `${PUBLIC_URL}/productImages/usb.png`, price: '120 $', status: 'Available', salesData: [
             { month: 'January', sales: 3456 },
             { month: 'February', sales: 4543 },
             { month: 'March', sales: 5645 },

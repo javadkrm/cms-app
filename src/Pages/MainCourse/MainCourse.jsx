@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { userRows } from '../../Datas'
 import './MainCourse.css'
 
-export default function MainCourse() {
+export default function MainUSer() {
 
     let params = useParams()
 
