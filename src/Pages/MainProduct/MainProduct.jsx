@@ -19,7 +19,7 @@ export default function MainCourse() {
                     </div>
                     <div className="mainCourseInfo">
                         <div className="mainCourseLeft">
-                            <img src={process.env.PUBLIC_URL + '/' + mainProData.avatar} alt={mainProData.name} className="mainCourseImg" />
+                            <img src={mainProData.avatar} alt={mainProData.name} className="mainCourseImg" />
                         </div>
                         <div className="mainCourseRight">
                             <div className="mainCourseInfoItem">

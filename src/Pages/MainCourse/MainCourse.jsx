@@ -17,7 +17,7 @@ export default function MainUSer() {
         </div>
         <div className="mainCourseInfo">
           <div className="mainCourseLeft">
-            <img src={process.env.PUBLIC_URL + '/' + mainUserData.avatar} alt={mainUserData.userName} className="mainCourseImg" />
+            <img src={mainUserData.avatar} alt={mainUserData.userName} className="mainCourseImg" />
           </div>
           <div className="mainCourseRight">
             <div className="mainCourseInfoItem">
