@@ -19,7 +19,7 @@ export default function DataGridDemo() {
         return (
           <Link to={`/users/${params.row.id}`} style={{ textDecoration: 'none' }}>
             <div className="userListUser">
-              <img className="userListImg" src={`/${params.row.avatar}`} alt="" />
+              <img className="userListImg" src={`${params.row.avatar}`} alt="" />
               <span className='userListName'>
                 {params.row.userName}
               </span>
